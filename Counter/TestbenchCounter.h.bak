@@ -1,0 +1,50 @@
+#include "systemc.h"
+SC_MODULE(TestbenchCounter){
+//Start 'TestbenchCounter' Module
+	sc_out<bool> reset, enable;
+  	//Declare an output port, named 'reset'
+  	//Declare an output port, named 'enable'
+  	void testprocess(){
+  	//Declare a void return type function with no parameters, named 'testprocess', - start of 'testprocess'
+		enable.write(false);
+		reset.write(false);
+		wait(10, SC_NS);
+  		//Write enable as false and reset and false
+  		//Wait for 10 ns
+		enable.write(true);
+		reset.write(true);
+		wait(10, SC_NS);
+  		//Write enable as true and reset and true
+  		//Wait for 10 ns
+		enable.write(true);
+		reset.write(false);
+		wait(10, SC_NS);
+		//Write enable as true and reset and false
+  		//Wait for 10 ns
+		enable.write(false);
+		reset.write(true);
+		wait(10, SC_NS);
+		//Write enable as false and reset and true
+  		//Wait for 10 ns
+		enable.write(false);
+		reset.write(false);
+		wait(10, SC_NS);
+		//Write enable as false and reset and false
+  		//Wait for 10 ns
+		enable.write(true);
+		reset.write(true);
+		wait(10, SC_NS);
+		//Write enable as false and reset and false
+  		//Wait for 10 ns
+  	}//- start of 'testprocess'
+	SC_CTOR(TestbenchCounter){
+		SC_THREAD(testprocess);
+		//count=0;
+
+	}	
+    //Start Constructor
+		//Register 'testprocess' as SC_THREAD process
+		
+		// Initialize count as ZERO
+	//End Constructor
+}; //End 'TestbenchCounter' Module

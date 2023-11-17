@@ -1,0 +1,23 @@
+m255
+K4
+z2
+!s99 nomlopt
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/MentorGraphics/modeltech64_2020.1/examples
+T_opt
+!s110 1677015199
+VO4`1hSn@fZz8G;UC@;n;c2
+04 9 0 work AdderMain 0
+=1-0050569de753-63f5389f-3ea22-64cc
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.3_2;73
+sAdderMain
+R0

@@ -1,0 +1,9 @@
+{/home/as8u22/mydocuments/Digital System Synthesis/Coursework 1/adder/AdderMain.cpp} {1 {sccom -work work -stats=none {/home/as8u22/mydocuments/Digital System Synthesis/Coursework 1/adder/AdderMain.cpp}
+sccom -reportprogress -work work -stats=none /home/as8u22/mydocuments/Digital System Synthesis/Coursework 1/adder/AdderMain.cpp 
+
+QuestaSim-64 sccom 2021.3_2 compiler 2021.09 Sep 10 2021
+
+Exported modules:
+	AdderMain
+
+} {} {}}

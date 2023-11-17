@@ -1,0 +1,49 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/as8u22/mydocuments/Digital System Synthesis/Coursework 1/adder
+T_opt
+!s110 1678111244
+V:Dc9C=Pg=jIiK<E_4K:4X3
+Z2 04 11 0 work CounterMain 0
+=1-0050569de753-6405f20c-32bda-b2c0
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.3_2;73
+R1
+T_opt1
+!s110 1678111407
+VH2n9B=ZklB]COB8`>3JC;1
+R2
+=1-0050569de753-6405f2ae-f231a-f6f0
+R3
+o-quiet -auto_acc_if_foreign -work work
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1682439128
+V1PGC1HY>2cQQeO=52`=IK1
+R2
+=4-0050569de753-6447fbd8-1410e-1a137
+R3
+R4
+R5
+n@_opt2
+R6
+sCounterMain
+R1
